@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.Hypergeometric;
+})();
 })();
 </script>
 ```
@@ -287,6 +289,7 @@ y = hypergeometric.quantile( 1.9 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-ctor@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var hypergeometric = new Hypergeometric( 100, 50, 20 );
 
@@ -302,6 +305,7 @@ var s2 = hypergeometric.variance;
 var y = hypergeometric.cdf( 10.5 );
 // returns ~0.598
 
+})();
 })();
 </script>
 </body>
