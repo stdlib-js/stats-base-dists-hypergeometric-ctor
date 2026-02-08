@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import Hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-ctor@esm/index.mjs';
+import Hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-ctor@v0.1.1-esm/index.mjs';
 ```
 
 #### Hypergeometric( N, K, n )
@@ -273,7 +273,7 @@ y = hypergeometric.quantile( 1.9 );
 <body>
 <script type="module">
 
-import Hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-ctor@esm/index.mjs';
+import Hypergeometric from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-hypergeometric-ctor@v0.1.1-esm/index.mjs';
 
 var hypergeometric = new Hypergeometric( 100, 50, 20 );
 
